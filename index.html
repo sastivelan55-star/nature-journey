@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature: A Journey Into the Natural World</title>
+    <meta name="description" content="Discover the beauty, power and quiet wonder of the natural world through our modern editorial journey.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Using Newsreader for elegant editorial serif and Inter for clean sans-serif body/small text -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Overlay for initial smooth load -->
+    <div class="loader-overlay" id="loader"></div>
+
+    <header class="header">
+        <div class="logo">Nature</div>
+        <nav class="nav">
+            <a href="#about">About</a>
+            <a href="#showcase">Explore</a>
+            <a href="#features">Ecosystem</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-image-container reveal-scale">
+                <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" alt="Majestic forest landscape" class="hero-image" id="hero-img">
+            </div>
+            <div class="hero-content">
+                <h1 class="hero-title reveal-text">
+                    <span class="line">A Journey</span>
+                    <span class="line indent">Into Nature</span>
+                </h1>
+                <p class="hero-subtitle reveal-text delay-1">Discover the beauty, power and quiet wonder of the natural world.</p>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-text-content reveal-fade-up">
+                        <h2 class="section-heading">The World Around Us</h2>
+                        <p class="lead-text">Nature surrounds us in countless forms — from ancient forests and flowing rivers to wildlife and open skies. It gives us the air we breathe, the water we depend on and places where we can pause, explore and reconnect.</p>
+                    </div>
+                    <div class="about-image-content reveal-fade-up delay-1">
+                        <div class="image-wrapper aspect-portrait">
+                            <img src="https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Detail of nature" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Nature Showcase -->
+        <section class="showcase" id="showcase">
+            <!-- Item 1: Forests -->
+            <div class="showcase-item">
+                <div class="showcase-image reveal-image">
+                    <img src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80" alt="Deep green forest path" loading="lazy">
+                </div>
+                <div class="showcase-text reveal-fade-up">
+                    <span class="chapter-number">01</span>
+                    <h3 class="showcase-title">Forests</h3>
+                    <p>Forests are living ecosystems filled with trees, plants and wildlife. They provide shelter, support biodiversity and help keep our planet healthy.</p>
+                </div>
+            </div>
+
+            <!-- Item 2: Waterfalls -->
+            <div class="showcase-item reverse">
+                <div class="showcase-image reveal-image">
+                    <img src="https://images.unsplash.com/photo-1476611317561-60117649dd94?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80" alt="Powerful cascading waterfall" loading="lazy">
+                </div>
+                <div class="showcase-text reveal-fade-up">
+                    <span class="chapter-number">02</span>
+                    <h3 class="showcase-title">Waterfalls</h3>
+                    <p>From gentle streams to powerful cascades, waterfalls reveal the movement and energy of water across the landscape.</p>
+                </div>
+            </div>
+
+            <!-- Item 3: Wildlife (Full width banner style) -->
+            <div class="showcase-banner reveal-image">
+                <img src="https://images.unsplash.com/photo-1456926631375-92c8ce872def?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" alt="Wildlife in natural habitat" loading="lazy">
+                <div class="banner-content reveal-fade-up delay-1">
+                    <span class="chapter-number">03</span>
+                    <h3 class="showcase-title">Wildlife</h3>
+                    <p>Every bird, butterfly and animal plays a role in the balance of an ecosystem, making wildlife an essential part of our natural world.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Nature Features -->
+        <section class="features" id="features">
+            <div class="container">
+                <div class="features-grid">
+                    <div class="feature-card reveal-fade-up">
+                        <div class="feature-line"></div>
+                        <h4 class="feature-title">Fresh Air</h4>
+                        <p class="feature-text">Trees and plants help create the clean air that every living thing depends on.</p>
+                    </div>
+                    <div class="feature-card reveal-fade-up delay-1">
+                        <div class="feature-line"></div>
+                        <h4 class="feature-title">Precious Water</h4>
+                        <p class="feature-text">Rivers, lakes, rain and oceans form the water systems that sustain life.</p>
+                    </div>
+                    <div class="feature-card reveal-fade-up delay-2">
+                        <div class="feature-line"></div>
+                        <h4 class="feature-title">Natural Energy</h4>
+                        <p class="feature-text">Sunlight provides energy that drives ecosystems and supports life across the planet.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA -->
+        <section class="cta">
+            <div class="cta-background">
+                <img src="https://images.unsplash.com/photo-1511497584788-876760111969?ixlib=rb-4.0.3&auto=format&fit=crop&w=2400&q=80" alt="Looking up at forest canopy" loading="lazy" class="cta-bg-image">
+            </div>
+            <div class="cta-overlay"></div>
+            <div class="cta-content reveal-fade-up">
+                <h2 class="cta-heading">Protect What Gives Us Life</h2>
+                <p class="cta-text">Small choices can make a difference. Respect nature, reduce waste and help protect the places that future generations will inherit.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Explore Nature | Learn &bull; Discover &bull; Protect</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
